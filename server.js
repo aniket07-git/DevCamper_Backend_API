@@ -20,6 +20,9 @@ const bootcamps = require('./routes/bootcamps');
 
 const app = express();
 
+//Body Parser
+app.use(express.json());
+
 //Mount logger middleware
 //app.use(logger);
 
